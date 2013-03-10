@@ -22,28 +22,3 @@ class burbuja {
 		}
 	}
 }
-
-/* Metodo de la burbuja:
-for int tope = arr.length - 2; tope >= 0; tope--) {
-	for(int i=0; i<=tope; i++) {
-		if(arr[i]>arr[i+1]) {
-			aux=arr[i];
-			arr[i]=arr[i+1];
-			arr[i+1]=aux;
-		}
-	}
-}
-*/
-
-/* Mejora:
-for int tope = arr.length - 2; (tope >= 0) && (ordenando == false); tope--) {
-	for(int i=0; i<=tope; i++) {
-		if(arr[i]>arr[i+1]) {
-			ordenado = false;
-			aux=arr[i];
-			arr[i]=arr[i+1];
-			arr[i+1]=aux;
-		}
-	}
-}
-*/
