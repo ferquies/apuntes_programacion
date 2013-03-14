@@ -53,7 +53,8 @@ public class ej5_exam {
         c.mostrar();
         System.out.println();
         System.out.print("Introduce el numero de la ciudad: ");
-        int num = Integer.parseInt(System.console().readLine());
+	String ciudad = System.console().readLine();
+	int num = Integer.parseInt(ciudad.trim());
         c.mostrarNum(num);
     }
 }
