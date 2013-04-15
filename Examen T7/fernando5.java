@@ -2,12 +2,12 @@
 
 class Ciudades {
 	final static int TAM = 10;
-	private String ciudades[] = new String[TAM];	
+	private String ciudades[] = new String[TAM];
 
 	public Ciudades() {
 	// SI HACES EL NEW AQUÍ NO HACE FALTA HACERLO EN LA LINEA 3
 		String ciudades[] = new String[TAM];
-	}	
+	}
 
 	public void cargar() {
 		for(int i = 0; i < TAM; i++) {
@@ -51,7 +51,7 @@ class Ciudades {
 public class fernando5 {
 	public static void main(String[] args) {
 		int n;
-		
+
 		Ciudades c = new Ciudades();
 		c.cargar();
 		c.mostrar();
