@@ -2,10 +2,8 @@
 
 class Ciudades {
 	final static int TAM = 10;
-	private String ciudades[] = new String[TAM];
 
 	public Ciudades() {
-	// SI HACES EL NEW AQUÍ NO HACE FALTA HACERLO EN LA LINEA 3
 		String ciudades[] = new String[TAM];
 	}
 
